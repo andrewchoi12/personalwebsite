@@ -1,4 +1,5 @@
 #root {
+  width:100%;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -11,6 +12,13 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
+@media (max-width: 768px) {
+  .logo {
+    height: 4em;  /* Adjust height for smaller screens */
+  }
+}
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -39,4 +47,17 @@
 
 .read-the-docs {
   color: #888;
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  h3 {
+    font-size: 1.125rem;
+  }
 }

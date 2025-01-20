@@ -11,15 +11,15 @@ function App() {
 
   return (
     <>
-      <div class="Nav">
+      <div className="Nav">
         <Header />
       </div>
-      <div class="Main">
+      <main className="Main">
         <About />
         <Skills />
         <Projects />
         <Resume />
-      </div>
+      </main>
     </>
   )
 }
