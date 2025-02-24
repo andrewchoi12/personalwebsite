@@ -1,5 +1,5 @@
-import ResumePDF from '../assets/AndrewChoiResume.pdf'
-import ResumeImage from '../assets/AndrewChoiResume.jpg'
+import ResumePDF from '../assets/AndrewChoiResumeFeb2025.pdf'
+import ResumeImage from '../assets/AndrewChoiResumeFeb2025.jpg'
 
 const ResumeSection = () => {
   return (
