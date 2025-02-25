@@ -20,7 +20,7 @@ const Header = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} />
             </svg>
           </button>
-          <a href="#" onClick={handleLinkClick} className="text-xl font-bold text-gray-800">Andrew Choi</a>
+          <a href="#" onClick={handleLinkClick} className="text-3xl font-bold text-gray-800">Andrew Choi</a>
           <div className="w-6"></div> {/* Empty div for spacing */}
         </div>
 
